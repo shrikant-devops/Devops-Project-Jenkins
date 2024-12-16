@@ -1,3 +1,3 @@
 output "instance_id" {
-  value = aws_instance.ec2.id
+  value = i-0bcb1695fa5dbdc15
 }
