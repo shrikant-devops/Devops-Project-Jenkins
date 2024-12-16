@@ -1,8 +1,8 @@
 resource "aws_instance" "ec2" {
-  ami           = var.ami
-  instance_type = var.instance_type
+  ami           = ami-0614680123427b75e
+  instance_type = t3.medium
   key_name      = "Jenkins-Project.pem" 
   tags = {
-    Name = var.instance_name
+    Name = Jenkins-Server
   }
 }
