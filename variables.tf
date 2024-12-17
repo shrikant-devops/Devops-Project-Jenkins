@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "AWS region"
-  default = "us-south-1"
+  default = "us-east-2"
 }
 
 variable "aws_type" {
@@ -10,5 +10,5 @@ variable "aws_type" {
 
 variable "aws_ami" {
   description = "AWS ami"
-  default = "ami-0614680123427b75e"
+  default = "ami-022661f8a4a1b91cf"
 }
